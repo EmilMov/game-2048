@@ -112,6 +112,9 @@ void start(std::vector<std::vector<int>>& game){
             std::cout<<"Thank you for playing game";
             return;
         }
+    }else if (lose_win(game)!=0){
+        std::cout<<"Game over :";
+        return;
     }
         
         printing(game);
