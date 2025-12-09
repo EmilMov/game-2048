@@ -1,0 +1,22 @@
+# Qt / build artifacts
+build-*/
+build/
+*.pro.user
+*.user
+*.user.*
+*.autosave
+
+# C++ artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.a
+*.dll
+*.dylib
+
+# OS junk
+.DS_Store
+Thumbs.db
+
