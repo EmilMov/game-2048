@@ -17,14 +17,15 @@ The project uses a simple MVC-style split: game logic in a standalone model, ren
 - **Restart:** “New Game” button
 
 ## Project Layout
+```text
 .
-├── Game2048.h / Game2048.cpp # Game model (state + rules)
-├── BoardWidget.h / BoardWidget.cpp # Board rendering
-├── MainWindow.h / MainWindow.cpp # UI + input controller
-├── main.cpp # App entry point
-├── game-2048.pro # qmake project
+├── Game2048.h / Game2048.cpp
+├── BoardWidget.h / BoardWidget.cpp
+├── MainWindow.h / MainWindow.cpp
+├── main.cpp
+├── game-2048.pro
 └── .gitignore
-
+```
 ## Build
 
 ### Qt Creator
